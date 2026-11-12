@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Integritetspolicy — Prillan</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+         max-width: 44rem; margin: 3rem auto; padding: 0 1.25rem; }
+  h1 { font-size: 1.7rem; margin-bottom: .25rem; }
+  .sub { color: #666; margin-top: 0; }
+  h2 { font-size: 1.1rem; margin-top: 2rem; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #ddd; font-size: .9rem; color: #666; }
+  @media (prefers-color-scheme: dark) { .sub, footer { color: #aaa; } }
+</style>
+</head>
+<body>
+
+<h1>Integritetspolicy</h1>
+<p class="sub">Prillan — privat verktyg för personligt bruk<br>Gäller från 12 november 2026</p>
+
+<h2>1. Ansvarig</h2>
+<p>Applikationen är ett privat verktyg som körs och ägs av en enskild person på egen
+hårdvara. Det finns ingen organisation, ingen extern användarkrets och ingen delning av
+konton. Kontakt: <a href="mailto:Filip.km.olsson@proton.me">Filip.km.olsson@proton.me</a></p>
+
+<h2>2. Vilka data som behandlas</h2>
+<p>Endast data från det Google-konto som ägaren själv har auktoriserat, och endast de
+behörigheter som ägaren godkänner i Googles samtyckesdialog. Vilka behörigheter som är
+beviljade framgår när som helst av ägarens eget konto på
+<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+<h2>3. Hur data används</h2>
+<p>Uteslutande för att tillhandahålla applikationens funktioner åt ägaren själv. Data
+används inte för annonsering, profilering eller vidareförsäljning, och används inte för att
+träna maskininlärningsmodeller.</p>
+
+<h2>4. Var data lagras</h2>
+<ul>
+  <li>OAuth-token (access- och refresh-token) lagras i en lokal fil på ägarens egen server
+      i hemnätverket, läsbar endast för ägarens användarkonto.</li>
+  <li>Behandlade data sparas som vanliga filer på samma maskiner.</li>
+  <li>Ingen data lagras hos tredje part. Inga externa analystjänster används.</li>
+</ul>
+
+<h2>5. Delning</h2>
+<p>Data delas inte med någon. Undantaget är det ägaren själv uttryckligen begär, till
+exempel att en sammanställning skickas till en mottagare som ägaren anger.</p>
+
+<h2>6. Lagringstid och radering</h2>
+<p>Token behålls tills ägaren återkallar åtkomsten. Åtkomst återkallas när som helst på
+<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>,
+varefter refresh-tokenet slutar fungera omedelbart. Lokala filer raderas av ägaren på samma
+maskiner.</p>
+
+<h2>7. Säkerhet</h2>
+<p>Tokenfilen skyddas av filsystemets rättigheter, och maskinerna nås endast från
+hemnätverket eller via ägarens privata VPN. Inga portar exponeras mot internet för
+applikationens räkning.</p>
+
+<h2>8. Google API Services User Data Policy</h2>
+<p>Användningen av information som tas emot från Google API:er följer
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API
+Services User Data Policy</a>, inklusive kraven om begränsad användning (Limited Use).
+Data läses endast för att tillhandahålla funktionerna ovan, överförs inte till tredje part,
+används inte för annonsering och läses inte av människor.</p>
+
+<h2>9. Ändringar</h2>
+<p>Vid ändringar uppdateras datumet högst upp på sidan.</p>
+
+<footer>
+  <p><a href="./index.html">Tillbaka till startsidan</a></p>
+</footer>
+
+</body>
+</html>
